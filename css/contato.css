@@ -1,0 +1,101 @@
+.interna_contato {
+    background: url("../img/bg-contato.jpg") no-repeat center;
+    background-size: cover;
+    background-size: cover;
+    margin-top: 92px;
+    text-align: center;
+}
+
+
+
+
+
+/* ORÇAMENTO */
+.contato {
+    /* background: #000; */
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+.form {
+    padding-right: 60px;
+}
+.form label {
+    display: block;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-bottom: 4px;
+
+}
+.form input {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    border: 4px solid #fec63e;
+    margin-bottom: 10px;
+    background: none;
+    color: #fff;
+    padding: 7px 10px;
+    outline: none;
+}
+.form textarea {
+    display: block;
+    width: 100%;
+    height: 120px;
+    font-size: 14px;
+    border: 4px solid #fec63e;
+    margin-bottom: 20px;
+    background: none;
+    color: #fff;
+    padding: 7px 10px;
+    outline: none;
+}
+.form button {
+    background: none;
+    padding: 7px 40px;
+}
+.form button:hover {
+    color: #000;
+    border-color: #000;
+}
+.contato_dados {
+    color: #000;
+}
+
+.contato_dados h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fec63e;
+    margin-bottom: 12px;
+}
+.contato_dados h3:nth-child(even) {
+    margin-bottom: 20px;
+}
+
+.contato_dados span {
+    display: block;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.contato_mapa img {
+    margin-bottom: 60px;
+}
+
+.contato_dados img {
+    display: inline;
+    border: 3px solid #fec63e;
+    padding: 12px;
+    margin-right: 10px;
+
+}
+.contato_dados img:hover  {
+    border-color: #000;
+}
+.contato_dados span:nth-child(5) {
+    margin-bottom: 40px;
+}

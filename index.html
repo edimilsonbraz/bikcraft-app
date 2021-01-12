@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BikCraft</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
+
+    <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
     <header class="header">
@@ -30,18 +33,18 @@
 
     <section class="introducao">
         <div class="container">
-            <h1>Bicicletas feitas a Mão</h1>
-            <blockquote class="quote-externo">
+            <h1 data-anime="400" class="fadeInDown">Bicicletas feitas a Mão</h1>
+            <blockquote data-anime="800" class="fadeInDown quote-externo">
                 <p>"não tenha nada em sua casa que você
                     não considere útil ou acredita ser bonito"
                 </p>
                 <cite>WILLIAN MORRIS</cite>
             </blockquote>
-            <a href="produtos.html" class="btn">Orçamento</a>
+            <a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
         </div>
     </section>
 
-    <section class="produtos container">
+    <section class="produtos container fadeInDown" data-anime="1600">
 
         <h2 class="subtitulo">Produtos</h2>
 
@@ -174,6 +177,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
     
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BikCraft - Contato</title>
-
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/grid.css">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/responsivo.css">
 
-
+    <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
     <header class="header">
@@ -36,14 +36,14 @@
 
     <section class="introducao-interna interna_contato">
         <div class="container">
-            <h1>Contato</h1>
-            <p>Tire suas dúvidas conosco!</p>
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">Tire suas dúvidas conosco!</p>
             
         </div>
     </section>
 
     <section class="contato">
-        <div class="container">
+        <div class="container fadeInDown" data-anime="1200">
             <form action="" id="form_contato" class="form grid-8">
                 <label for="nome">Nome</label>
                 <input type="text" name="" id="nome">
@@ -127,6 +127,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
     
 </body>
 </html>

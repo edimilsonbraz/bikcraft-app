@@ -408,4 +408,10 @@ img {
     transition: opacity 800ms, transform 900ms; 
 }
 
-
+/* ENVIO FORM */
+#form-sucesso {
+    color: #31aa39;
+}
+#form-erro {
+    color: #f64540;
+}

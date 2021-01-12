@@ -339,10 +339,8 @@ img {
 .footer_redes ul li a {
     border: 3px solid #fec63e;
     display: block;
-    align-items: initial;
     padding: 10px;
     transition: 200ms;
-    text-align: left;
 }
 .footer_redes ul li a:hover {
     border-color: #fff;

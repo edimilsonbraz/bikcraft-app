@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <%- include('../parts/page-head')  %> 
+<body>
+    <%- include('../parts/page-header', {pagina: "Produtos"})  %>
+
+    <section class="introducao-interna interna_produtos">
+        <div class="container">
+            <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+            <p data-anime="800" class="fadeInDown">conheça todos os nossos produtos</p>
+            
+        </div>
+    </section>
+
+    <section class="container produto_item fadeInDown" data-anime="1200">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-passeio-1.jpg" alt="bikcraft Passeio">
+            <h2>Passeio</h2>
+        </div>
+
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/passeio.svg" alt="bikcraft icone">
+        </div>
+        <div class="grid-8">
+            <img src="img/produtos/bikcraft-passeio-2.jpg" alt="bikcraft Passeio 2"> 
+        </div>
+        <div class="grid-8 produto_info">
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os 
+            </p>
+            <ul>
+                <li>conforto</li>
+                <li>velocidade</li>
+                <li>design </li>
+                <li>versatilidade</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container produto_item">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-esporte-1.jpg" alt="bikcraft Esporte">
+            <h2>Esporte</h2>
+        </div>
+
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/esporte.svg" alt="bikcraft icone">
+        </div>
+        <div class="grid-8">
+            <img src="img/produtos/bikcraft-esporte-2.jpg" alt="bikcraft Esporte"> 
+        </div>
+        <div class="grid-8 produto_info">
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os 
+            </p>
+            <ul>
+                <li>conforto</li>
+                <li>velocidade</li>
+                <li>design </li>
+                <li>versatilidade</li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="container produto_item">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-retro-1.jpg" alt="bikcraft Retro">
+            <h2>Retrô</h2>
+        </div>
+
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/retro.svg" alt="bikcraft icone">
+        </div>
+        <div class="grid-8">
+            <img src="img/produtos/bikcraft-retro-2.jpg" alt="bikcraft Retro 2"> 
+        </div>
+        <div class="grid-8 produto_info">
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os 
+            </p>
+            <ul>
+                <li>conforto</li>
+                <li>velocidade</li>
+                <li>design </li>
+                <li>versatilidade</li>
+            </ul>
+        </div>
+    </div>
+
+    <section class="orcamento">
+        <div class="container">
+            <h2 class="subtitulo">Orçamento</h2>  
+
+            <form action="./enviar.php" id="form_orcamento" class="form grid-8 formphp">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" name="telefone" id="telefone">
+
+                <label for="mensagem">Especificações</label>
+                <textarea name="mensagem" id="espec" cols="30" rows="10"></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+
+            <div class="orcamento_dados grid-8">
+                <h3>Dados</h3>
+                <span>+55 61 3342-3131</span>
+                <span>orçamento@email.com</span>
+
+                <h3>Monte a sua Bikcraft</h3>
+                <p>Escolha as especificações</p>
+                <ul>
+                    <li>- Cores</li>
+                    <li>- Estilo</li>
+                    <li>- Medidas</li>
+                    <li>- Acessórios</li>
+                    <li>- E Outros</li>
+                </ul>
+                <!-- <form action="">
+                    <input type="text" name="Cores" id="" placeholder="Cores">
+                    <input type="text" name="Cores" id="" placeholder="Estilos">
+                    <input type="text" name="Cores" id="" placeholder="Acessórios">
+                    <input type="text" name="Cores" id="" placeholder="Medidas">
+                    <input type="text" name="Cores" id="" placeholder="E Outros">
+                </form> -->
+            </div>
+
+        </div>
+
+    </section>
+
+    <%- include('../parts/page-quebra')  %>
+
+    <%- include('../parts/page-footer')  %>
+    
+    <%- include('../parts/page-scripts')  %>
+    
+</body>
+</html>
